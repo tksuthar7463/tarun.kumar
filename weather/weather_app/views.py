@@ -22,7 +22,7 @@ def index(request):
         'city':city.name,
         'tempreture':r['main']['temp'],
         'description' :r['weather'][0]['description'],
-        'icon':r['weather'][0]['icon']
+        'icon':r['weather'][0]['icon'],
         }
         weather_data.append(city_weather)
 
